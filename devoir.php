@@ -20,5 +20,10 @@
 //  Génération de la recette :
     $recette = "";
 
+    $recette.= "Recette de gâteau nature \n";
+
+// Traitement des ingrédients :
+
+
 
 ?>
