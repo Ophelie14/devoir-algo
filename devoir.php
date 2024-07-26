@@ -27,15 +27,14 @@
 
     foreach ($_ingredients as $ingredient => $grammes) {
         echo "Votre gâteau contient $grammes grammes de $ingredient.\n";
-    }
 
-    echo " $_actions[1] le $_ingredients[2]\n";
-    echo " $_actions[2] le $_ingredients[3]\n";
-    echo " $_actions[1] le $_ingredients[0] et le $_ingredients[1]\n";
-
+        
+        echo " $_actions[1] le $_ingredients[2]\n";
+        echo " $_actions[2] le $_ingredients[3]\n";
+        echo " $_actions[1] le $_ingredients[0] et le $_ingredients[1]\n";
+        }
+  
 
 // Finalisation de la recette :
 echo " Servir chaud et déguster !.\n"
-
-
 ?>
